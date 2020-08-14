@@ -1,31 +1,161 @@
+html {
+  background-color: palegoldenrod;
+}
+
 body {
-  margin: 0;
+  margin: 20px;
   padding: 0;
   font-family: sans-serif;
-  background-color: #f2f2f2;
+  background-color: palegoldenrod;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: green;
+}
+
+.top {
+  text-align: center;
+  text-shadow: lightslategrey;
+  color: green;
+}
+
+.addLink {
+  background-color: rgb(137, 203, 134);
+  color: black;
+  padding: 9px;
+  margin-left: 45vw;
+  border: 3px ridge green;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.addLink:hover {
+  color: green;
+  background-color: palegoldenrod;
+}
+
+.add {
+  border: 2px solid green;
+  border-radius: 3px;
+  padding: 3px;
+  margin-left: 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.add:hover {
+  background-color: cadetblue;
+
+}
+
+.edit {
+  font-size: 15px;
+  background-color: rgb(137, 203, 134);
+  border: 2px solid green;
+  border-radius: 3px;
+  padding: 4px;
+  margin-top: 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.edit:hover {
+  background-color: rgb(199, 62, 62);
+  color: white;
+}
+
+.updateMovie {
+  margin-left: 8px;
+  border: 2px solid green;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.updateMovie:hover {
+  font-size: 15px;
+  background-color: rgb(137, 203, 134);
+}
+
+.update {
+  font-size: 15px;
+  border: 2px solid green;
+  border-radius: 3px;
+  color: black;
+  padding: 4px;
+  margin-right: 4px;
+  background-color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.update:hover {
+  color: green;
+  font-size: 18px;
+}
+
+.delete {
+  font-size: 15px;
+  border: 2px solid green;
+  border-radius: 3px;
+  color: black;
+  padding: 4px;
+  margin-left: 4px;
+  background-color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.delete:hover {
+  color: darkred;
+  border-color: darkred;
+  font-size: 18px;
 }
 
 .movie-card {
   background-color: #fff;
-  border: 0;
-  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
-    0 2px 4px rgba(0, 0, 0, 0.24);
+  border: 2px solid green;
+  border-radius: 6px;
+  box-shadow: 0 1px 0 #748a75, 0 0 2px rgba(82, 211, 140, 0.303), 0 2px 4px rgba(0, 0, 0, 0.543);
   padding: 1rem;
+  width: 75%;
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .movie-director {
   padding: 4px 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .saved-list {
   background-color: #fff;
-  border: 0;
-  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
-    0 2px 4px rgba(0, 0, 0, 0.24);
+  border: 2px solid green;
+  border-radius: 6px;
+  box-shadow: 0 -1px 0 #748a75, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
   padding: 1rem;
   cursor: pointer;
   position: relative;
@@ -34,6 +164,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .saved-list h3 {
@@ -41,12 +175,24 @@ body {
 }
 
 .saved-movie {
+  border: 2px solid green;
+  border-radius: 3px;
+  padding: 4px;
   margin: 0 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 .saved-active {
-  color: blue;
-  border: 1px solid grey;
+  color: black;
+  border: 2px solid green;
+  border-radius: 3px;
   padding: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 .save-wrapper {
   position: relative;
@@ -57,9 +203,14 @@ body {
   position: absolute;
   top: 25px;
   right: 25px;
-  border: 1px solid grey;
+  border: 2px solid green;
+  border-radius: 3px;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  background-color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
 }
 .save-button:hover {
   background-color: green;
@@ -67,8 +218,19 @@ body {
 }
 
 .home-button {
+  border: 2px solid green;
+  border-radius: 3px;
   padding: 5px 10px;
-  background-color: lightskyblue;
+  margin-right: 4px;
+  background-color: palegoldenrod;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.home-button:hover {
+  background-color: goldenrod;
 }
 
 .movie-warning {
